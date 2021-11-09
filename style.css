@@ -88,3 +88,16 @@ button {
     padding: 2px 20px;
     border-radius: 3px;
 }
+
+hr {
+    width: 70%;
+    color:rgb(36, 36, 36);
+}
+
+.eduarda {
+    color:#fff
+}
+
+.eduarda:hover {
+    color:rgb(219, 33, 173);
+}
