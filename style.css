@@ -65,8 +65,8 @@ a {
 
 .principal a {
     color: #fff;
-    text-decoration: underline;
-    font-weight: normal;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 .principal {
@@ -76,10 +76,14 @@ a {
     margin: 0 auto;
 }
 
+.principal ul {
+    display: flex;
+    justify-content: space-around;
+}
+
 .principal li {
     display: inline-block;
     line-height: 2.5;
-    margin: 0 89px;
 }
 
 button {
@@ -92,6 +96,10 @@ button {
 hr {
     width: 70%;
     color:rgb(36, 36, 36);
+}
+
+a:hover {
+    color: #2a0074;
 }
 
 .eduarda {
